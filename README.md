@@ -1,9 +1,17 @@
 # typescript-101
 Exemplos básicos de uso do TypeScript.
 
-Links dos tutoriais em breve no blog https://www.luiztools.com.br
+Série de tutoriais no blog, parte 1 aqui: https://www.luiztools.com.br/post/como-usar-typescript-com-node-js/
 
-Acompanhe novidades nas minhas redes sociais: https://about.me/luiztools
+## WebApi
+
+TypeScript webapi example. See its README file.
+
+## Veja Mais
+
+Minhas redes sociais: https://about.me/luiztools
+
+Receba novidades no Telegram: https://t.me/luiznews
 
 Conheça meus cursos: https://www.luiztools.com.br/meus-cursos
 
