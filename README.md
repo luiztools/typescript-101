@@ -5,7 +5,11 @@ Série de tutoriais no blog, parte 1 aqui: https://www.luiztools.com.br/post/com
 
 ## WebApi
 
-TypeScript webapi example. See its README file.
+TypeScript webapi example. No database. See its README file.
+
+## WebApi MongoDB
+
+TypeScript webapi example with MongoDB. See its README file.
 
 ## Veja Mais
 
