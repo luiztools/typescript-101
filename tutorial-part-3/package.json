@@ -7,15 +7,13 @@
     "start": "tsc ; nodemon ./dist/app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "LuizTools",
+  "license": "MIT",
   "dependencies": {
     "@types/express": "^4.17.8",
-    "body-parser": "^1.19.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "@types/body-parser": "^1.19.0",
     "@types/node": "^14.11.8"
   }
 }
