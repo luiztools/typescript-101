@@ -1,0 +1,16 @@
+{
+  "name": "tutorial-classes",
+  "version": "1.0.0",
+  "description": "TypeScript class example.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "LuizTools",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

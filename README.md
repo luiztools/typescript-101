@@ -1,5 +1,5 @@
 # typescript-101
-Exemplos básicos de uso do TypeScript.
+TypeScript basic examples.
 
 Série de tutoriais no blog, parte 1 aqui: https://www.luiztools.com.br/post/como-usar-typescript-com-node-js/
 
