@@ -9,23 +9,20 @@
     "start": "node ./dist/server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "LuizTools",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "express-async-errors": "^3.1.1",
-    "helmet": "^6.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.13",
-    "@types/dotenv": "^8.2.0",
-    "@types/express": "^4.17.15",
-    "@types/helmet": "^4.0.0",
-    "@types/morgan": "^1.9.4",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.9.4"
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/morgan": "^1.9.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
