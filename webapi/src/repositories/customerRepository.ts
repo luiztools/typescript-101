@@ -1,4 +1,4 @@
-import Customer from '../models/customer';
+import Customer from '../models/customer.js';
 
 const customers: Customer[] = [];
 
@@ -29,7 +29,7 @@ async function addCustomer(customer: Customer): Promise<Customer> {
 async function updateCustomer(id: number, newCustomer: Customer): Promise<Customer | undefined> {
     return new Promise((resolve, reject) => {
         const index = customers.findIndex(c => c.id === id);
-        if (index >= 0) {
+        if (index >= 0 && customers[index]) {
             if (newCustomer.name && customers[index].name !== newCustomer.name)
                 customers[index].name = newCustomer.name;
 

@@ -4,25 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx nodemon src/server.ts --watch 'src/' -e ts",
-    "compile": "npx tsc",
-    "start": "node ./dist/server.js"
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "LuizTools",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
     "helmet": "^8.1.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.1"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.1",
-    "@types/morgan": "^1.9.9",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
   }
 }

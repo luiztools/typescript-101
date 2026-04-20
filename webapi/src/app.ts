@@ -1,5 +1,4 @@
-import express, { Request, Response, NextFunction } from 'express';
-
+import express, { type Request, type Response, type NextFunction } from 'express';
 import cors from 'cors';
 import morgan from 'morgan';
 import helmet from 'helmet';
@@ -14,7 +13,7 @@ app.use(helmet());
 
 app.use(express.json());
 
-import customerRouter from './routers/customerRouter';
+import customerRouter from './routers/customerRouter.js';
 
 app.use('/customers/', customerRouter);
 

@@ -1,9 +1,9 @@
-import { Request, Response, NextFunction } from 'express';
-import Customer from '../models/customer';
-import customerRepository from '../repositories/customerRepository';
+import { type Request, type Response, type NextFunction } from 'express';
+import Customer from '../models/customer.js';
+import customerRepository from '../repositories/customerRepository.js';
 
 async function getCustomer(req: Request, res: Response, next: NextFunction) {
-    const id = req.params.id;
+    const id = req.params.id as string;
     const customer = await customerRepository.getCustomer(parseInt(id));
     if (customer)
         res.json(customer);
@@ -26,7 +26,7 @@ async function postCustomer(req: Request, res: Response, next: NextFunction) {
 }
 
 async function patchCustomer(req: Request, res: Response, next: NextFunction) {
-    const id = req.params.id;
+    const id = req.params.id as string;
     const customer = req.body as Customer;
     const result = await customerRepository.updateCustomer(parseInt(id), customer);
     if (result)
@@ -36,7 +36,7 @@ async function patchCustomer(req: Request, res: Response, next: NextFunction) {
 }
 
 async function deleteCustomer(req: Request, res: Response, next: NextFunction) {
-    const id = req.params.id;
+    const id = req.params.id as string;
     const success = await customerRepository.deleteCustomer(parseInt(id));
     if (success)
         res.sendStatus(204);

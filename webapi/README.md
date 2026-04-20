@@ -9,7 +9,7 @@ A simple Node.js WebAPI example written with TypeScript and Express.
 3. copy .env.example as .env
 4. fill the .env
 5. "npm run dev" to run as dev
-6. after tests, "npm run compile" and "npm start" to run in production
+6. after tests, "npm run build" and "npm start" to run in production
 
 ## Endpoints
 
