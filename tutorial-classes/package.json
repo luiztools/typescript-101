@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "TypeScript class example.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "npx nodemon ./src/index.ts"
+    "start": "node src/index.js",
+    "build": "npx tsc",
+    "dev": "npx tsx watch src/index.ts"
   },
   "keywords": [],
   "author": "LuizTools",
   "license": "MIT",
   "devDependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
   }
 }

@@ -1,5 +1,5 @@
-import Customer from "./customer";
-import Address from "./address";
+import Customer from "./customer.js";
+import Address from "./address.js";
 
 const address = new Address("Minha Rua 67", "Meu Bairro", "Minha Cidade", "RS");
 const customer1 = new Customer("Luiz Duarte", "contato@luiztools.com.br", new Date(1988, 4, 25), address);

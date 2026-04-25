@@ -1,20 +1,26 @@
 {
-  "name": "parte-2.3",
+  "name": "typescript-101",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Exemplos básicos de uso do TypeScript",
+  "main": "app.js",
   "scripts": {
-    "start": "tsc ; nodemon ./dist/app",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/app.js",
+    "build": "npx tsc",
+    "dev": "npx tsx watch src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiztools/typescript-101.git"
   },
   "author": "LuizTools",
   "license": "MIT",
-  "dependencies": {
-    "@types/express": "^4.17.8",
-    "express": "^4.17.1"
+  "bugs": {
+    "url": "https://github.com/luiztools/typescript-101/issues"
   },
+  "homepage": "https://github.com/luiztools/typescript-101#readme",
   "devDependencies": {
-    "@types/node": "^14.11.8",
-    "typescript": "^5.3.3"
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3",
+    "@types/node": "^25.6.0"
   }
 }

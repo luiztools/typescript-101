@@ -10,10 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/luiztools/typescript-101.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "LuizTools",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/luiztools/typescript-101/issues"
   },
-  "homepage": "https://github.com/luiztools/typescript-101#readme"
+  "homepage": "https://github.com/luiztools/typescript-101#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
 }

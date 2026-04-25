@@ -4,16 +4,22 @@
   "description": "Exemplos básicos de uso do TypeScript",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/app.js",
+    "build": "npx tsc",
+    "dev": "npx tsx watch src/app.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luiztools/typescript-101.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "LuizTools",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/luiztools/typescript-101/issues"
   },
-  "homepage": "https://github.com/luiztools/typescript-101#readme"
+  "homepage": "https://github.com/luiztools/typescript-101#readme",
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
 }
